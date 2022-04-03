@@ -1,4 +1,7 @@
-import aoc_utils
+list1 = [1, 2, 3]
+list2 = [1, 2]
 
-test_day = 1
-aoc_utils.download_input(test_day)
+for item in list2:
+    list1.remove(item)
+
+print(list1)
